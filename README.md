@@ -19,7 +19,7 @@ Official repository for OV-Pro: Enhancing open-vocabulary 3D object detection by
 OV-Pro is a novel framework built upon prototype-based knowledge distillation, designed to improve the model’s localization and classification capabilities for novel objects. Specifically, OV-Pro first uses the cross-view instance consistency constrained prototype generation (C3PG) method to construct open-vocabulary prototypes with more comprehensive geometric representations. This reduces noise in pseudo labels while enhancing the quality of prototype generation. Secondly, inspired by human capability to recognize incomplete objects, OV-Pro adopts the prototype contrastive distillation (PCD) method to transfer prototype knowledge at the instance level, enhancing the model’s recognition ability for incomplete novel objects. Finally, OV-Pro leverages the prototype propagation strategy (PPS) to propagate the prototype knowledge and simulate hard instances, improving the model’s robustness for novel objects. Extensive experiments on the nuScenes dataset demonstrated that the proposed framework achieves state-of-the-art performance in OV-3DDet tasks.
 
 <p align="center">
-  <img src="docs/Image.svg" width="90%" alt="OV-Pro Framework">
+  <img src="docs/Main.svg" width="90%" alt="OV-Pro Framework">
 </p>
 
 ## Installation
